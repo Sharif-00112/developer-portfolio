@@ -9,7 +9,7 @@ h1{
 .orange-color{
     color: tomato;
 }
-section{
+.flexiable-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -44,4 +44,38 @@ p{
 }
 .dream-big p{
     padding-right: 30%;
+}
+.experiance-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+h3{
+    color: orange;
+}
+.experiance-item{
+    width: 42%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 15px;
+    padding-bottom: 50px;
+    padding-top: 15px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 8px;
+}
+.experiance-item p{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#full-dev-experiance{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#web-dev-experiance{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
